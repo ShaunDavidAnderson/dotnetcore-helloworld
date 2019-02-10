@@ -14,7 +14,7 @@ namespace UnitTests
 
             var values = repository.GetAll();
 
-            Assert.AreNotEqual(2, values.Count());
+            Assert.AreEqual(2, values.Count());
         }
 
         [TestMethod]
