@@ -6,7 +6,7 @@ namespace Implementation
     {
         public IEnumerable<string> GetAll()
         {
-            return new[] { "value1", "value2" };
+            return new[] { "value5", "value6" };
         }
 
         public string GetById(int id)
